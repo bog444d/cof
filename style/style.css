@@ -168,3 +168,46 @@ header {
   margin: auto;
   text-align: center;
 }
+.list{
+  padding: 50px;
+  background: lightskyblue;
+
+}
+.list-item{
+  font-size: 18px;
+}
+/* .list-item:nth-child(odd){
+  background: red;
+}
+.list-item:nth-child(even){
+  background: lightgreen;
+  font-style: italic;
+} */
+/* .list-item:last-child{
+  text-align: center;
+}
+.list-item:first-child{
+  text-align: right;
+} */
+/* .list-item:not(:first-child){
+  text-align: center;
+} */
+/* .list-item:nth-child(2){
+  color: red;
+} */
+/* .list-item::first-letter{
+  font-size: 50px;
+} */
+.list-item{
+  color: red;
+}
+.list-item:hover{
+  font-size: 20px;
+  color: white;
+  letter-spacing: 20px;
+}
+.main-button button:hover{
+  cursor: pointer;
+  background: #540001;
+
+}
